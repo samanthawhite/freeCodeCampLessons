@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1 id="title">Survey</h1>
+		<p id="description">
+			This is a survey
+		</p>
+		
+		<!-- FORM -->
+		<form id="survey-form">
+			<fieldset>
+				<legend>Basic Information</legend>
+				<label for="name" id="name-label">Name <input id="name" type="text" placeholder="Jane Doe" required></label>
+			
+				<label for="email" id="email-label">Email <input id="email" type="email" placeholder="jane.doe@email.com" required></label>
+			
+				<label for="number" id="number-label">Favorite Number <input id="number" type="number" max="1000" min="0" placeholder="13"></label>
+
+				<label for="dropdown">Is a hotdog a sandwich? 
+					<select id="dropdown">
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Do you prefer dogs or cats?</legend>
+				<label><input type="radio" name="dogs-cats" value="1c" checked>Dogs</label>
+				<label><input type="radio" name="dogs-cats" value="2c">Cats</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>What do you like in your breakfast burrito?</legend>
+				<label><input type="checkbox" value="1">Bacon</label>
+				<label><input type="checkbox" value="2">Sausage</label>
+				<label><input type="checkbox" value="3">Steak</label>
+				<label><input type="checkbox" value="4">Eggs</label>
+				<label><input type="checkbox" value="5">Potatoes</label>
+				<label><input type="checkbox" value="6">Cheese</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Anything Else?</legend>
+				<textarea></textarea>
+			</fieldset>
+			
+			<input type="submit" value="Submit" id="submit">
+
+		</form>
+	</body>
+</html>

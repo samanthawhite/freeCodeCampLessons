@@ -1,0 +1,39 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#survey-form {
+	background-color: cornflowerBlue;
+}
+
+h1 {
+	font-family: Impact, sans-serif;
+	color: cornflowerBlue;
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 0px;
+}
+
+p {
+	text-align: center;
+	font-style: italic;
+	margin-top: -5px;
+	font-family: cursive;
+}
+
+legend {
+	font-family: Impact, sans-serif;
+	color: white;
+}
+
+fieldset {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	max-width: 500px;
+	border: hidden;
+	
+}
