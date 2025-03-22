@@ -1,3 +1,3 @@
-Scripts in this folder were created to aid in learning different languages. 
+# Overview
 
-I am following the FreeCodeCamp curriculum. I'll update this document if I use other resources.
+This repo is set up to track my progress with the Free Code Camp lessons. I started with the (now archived) *Responsive Web Design Certification* and *JavaScript Algorithms and Data Structures Certification*. This course has since been updated to be part of the *Certified Full Stack Developer Curriculum*, so this repo's folder structure has been updated to match. 
